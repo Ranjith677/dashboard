@@ -32,7 +32,7 @@ return {}
 
 useEffect(()=>{
     editCode()
-},[])
+})
 
 let editCode = async (values) =>{
     try {

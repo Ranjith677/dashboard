@@ -9,7 +9,7 @@ function EditUser() {
   useEffect(()=>{
     loadData();
 
-   },[])
+   })
 
   
     const formik = useFormik ({
