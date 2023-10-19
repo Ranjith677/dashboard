@@ -17,7 +17,7 @@ function UserView() {
     useEffect(()=>{
       loadUser();
           
-          },[])
+          })
 
     let loadUser= async ()=>{
       try{

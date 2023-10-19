@@ -9,7 +9,7 @@ function ProductView() {
 
     useEffect(()=>{
         getProduct();
-    },[])
+    })
 
     let getProduct = async () =>{
         setLoading(true)
